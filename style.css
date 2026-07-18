@@ -1,0 +1,744 @@
+:root {
+  --primary: #ff8f00;
+  --secondary: #f57c00;
+  --accent: #7a1e22;
+  --bg: #fff8f0;
+  --surface: #ffffff;
+  --surface-soft: #fff3e0;
+  --text: #2c231d;
+  --muted: #76685f;
+  --border: #f2dcc7;
+  --shadow: 0 16px 42px rgba(122, 30, 34, 0.11);
+  --radius: 8px;
+  --font-scale: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(255, 143, 0, 0.18), transparent 34rem),
+    linear-gradient(180deg, #fff8f0 0%, #fffdf9 48%, #fff8f0 100%);
+  color: var(--text);
+  font-family: "Poppins", "Noto Sans Devanagari", system-ui, sans-serif;
+  font-size: calc(16px * var(--font-scale));
+  line-height: 1.5;
+}
+
+body.dark {
+  --bg: #16110f;
+  --surface: #241b18;
+  --surface-soft: #33231b;
+  --text: #fff8ef;
+  --muted: #d9c7b9;
+  --border: #4a3328;
+  --shadow: 0 16px 42px rgba(0, 0, 0, 0.28);
+  background:
+    radial-gradient(circle at top left, rgba(255, 143, 0, 0.22), transparent 28rem),
+    linear-gradient(180deg, #17100d 0%, #201512 100%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+select,
+a,
+textarea,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+select:focus-visible,
+a:focus-visible,
+textarea:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(255, 143, 0, 0.55);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -4rem;
+  z-index: 20;
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.app-shell {
+  width: min(100%, 860px);
+  margin: 0 auto;
+  padding: 1rem 1rem 6.5rem;
+}
+
+.temple-panel,
+.card,
+.future-note,
+.reader-toolbar,
+.category-strip,
+.content-tabs {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.home-hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 18rem;
+  padding: 1.15rem;
+  color: #fffaf4;
+  background:
+    linear-gradient(135deg, rgba(122, 30, 34, 0.72), rgba(245, 124, 0, 0.78)),
+    url("images/temple-lotus.svg") center/cover no-repeat;
+}
+
+.home-hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -12% -38% -12%;
+  height: 9rem;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.28), transparent 66%);
+}
+
+.hero-top,
+.section-heading,
+.time-row,
+.page-header,
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.sacred-mark {
+  display: grid;
+  place-items: center;
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  font-family: "Noto Sans Devanagari", serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.sacred-mark.small {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin: 0 auto 0.7rem;
+  background: var(--surface-soft);
+  color: var(--accent);
+  border-color: var(--border);
+}
+
+.eyebrow {
+  margin: 0 0 0.35rem;
+  color: var(--secondary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.home-hero .eyebrow,
+.home-hero .hero-date {
+  color: #fff5e7;
+}
+
+h1,
+h2,
+h3,
+p,
+blockquote {
+  margin-top: 0;
+}
+
+h1 {
+  max-width: 12ch;
+  margin-bottom: 0.6rem;
+  font-size: clamp(2.05rem, 9vw, 4.4rem);
+  line-height: 1.05;
+}
+
+h2 {
+  margin-bottom: 0.55rem;
+  font-size: clamp(1.25rem, 4vw, 1.65rem);
+  line-height: 1.18;
+}
+
+h3 {
+  margin-bottom: 0.45rem;
+  font-size: 1.08rem;
+}
+
+.hero-date {
+  margin-bottom: 1.35rem;
+  font-size: 1.05rem;
+}
+
+.time-row {
+  position: relative;
+  z-index: 1;
+  margin-top: 2.35rem;
+  padding: 0.8rem 0.9rem;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: var(--radius);
+}
+
+.time-row strong {
+  font-size: 1.45rem;
+}
+
+.card,
+.reader-toolbar,
+.category-strip,
+.content-tabs {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: var(--surface);
+}
+
+.compact-card p:last-child,
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.deity-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 1rem;
+}
+
+.deity-symbol {
+  display: grid;
+  place-items: center;
+  width: 4.25rem;
+  height: 4.25rem;
+  border-radius: 50%;
+  background: var(--surface-soft);
+  font-size: 2.2rem;
+}
+
+.soft-pill {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--accent);
+  padding: 0.45rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.checklist {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.check-item {
+  display: grid;
+  grid-template-columns: 2.75rem 1fr;
+  align-items: center;
+  min-height: 3.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+  cursor: pointer;
+}
+
+.check-item input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0 auto;
+  accent-color: var(--primary);
+}
+
+.check-item span {
+  padding-right: 0.75rem;
+  font-weight: 600;
+}
+
+.mantra-text,
+.reading-text {
+  font-family: "Noto Sans Devanagari", "Poppins", sans-serif;
+}
+
+.mantra-text {
+  color: var(--accent);
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.festival-list {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.festival-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--surface), var(--surface-soft));
+}
+
+.festival-item strong,
+.festival-card strong {
+  display: block;
+}
+
+.festival-item small,
+.quick-card small,
+.setting-row small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.text-link {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.page-gap {
+  margin: 1.25rem 0 0.5rem;
+}
+
+.quick-grid,
+.festival-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.quick-card,
+.festival-card {
+  min-height: 8.4rem;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.quick-card span,
+.festival-card span {
+  display: block;
+  margin-bottom: 0.85rem;
+  font-size: 2rem;
+}
+
+.mini-calendar,
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.35rem;
+}
+
+.calendar-controls {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) 6.2rem 3rem;
+  gap: 0.5rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.calendar-controls select,
+.calendar-controls button {
+  width: 100%;
+}
+
+.calendar-day,
+.calendar-label {
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius);
+  font-weight: 700;
+}
+
+.calendar-label {
+  aspect-ratio: auto;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.calendar-day {
+  position: relative;
+  align-content: center;
+  min-height: 3.2rem;
+  aspect-ratio: 1;
+  padding: 0.25rem;
+  background: var(--surface-soft);
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.calendar-day.empty {
+  background: transparent;
+}
+
+.calendar-day.today {
+  background: var(--primary);
+  color: white;
+}
+
+.calendar-day.festival {
+  border-color: var(--accent);
+}
+
+.mini-calendar .calendar-day.festival::after {
+  content: "";
+  position: absolute;
+  bottom: 0.25rem;
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.calendar-grid .calendar-day {
+  min-height: 4.9rem;
+  aspect-ratio: auto;
+}
+
+.calendar-date-number {
+  display: block;
+  line-height: 1.1;
+}
+
+.calendar-festival-name {
+  display: -webkit-box;
+  margin-top: 0.18rem;
+  overflow: hidden;
+  color: var(--accent);
+  font-size: clamp(0.56rem, 2.1vw, 0.74rem);
+  font-weight: 700;
+  line-height: 1.15;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.calendar-day.today .calendar-festival-name {
+  color: white;
+}
+
+.quote-card blockquote {
+  margin-bottom: 0;
+  color: var(--accent);
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+textarea {
+  width: 100%;
+  min-height: 5.8rem;
+  resize: vertical;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+  color: var(--text);
+  padding: 0.9rem;
+}
+
+.bell {
+  font-size: 1.8rem;
+}
+
+.bottom-nav {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0.45rem max(0.55rem, env(safe-area-inset-left)) calc(0.45rem + env(safe-area-inset-bottom));
+  background: rgba(255, 255, 255, 0.92);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -10px 30px rgba(79, 41, 15, 0.12);
+  backdrop-filter: blur(18px);
+}
+
+body.dark .bottom-nav {
+  background: rgba(36, 27, 24, 0.92);
+}
+
+.bottom-nav a {
+  display: grid;
+  place-items: center;
+  min-height: 3.7rem;
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.bottom-nav span {
+  font-size: 1.25rem;
+}
+
+.bottom-nav a.active {
+  background: var(--surface-soft);
+  color: var(--accent);
+}
+
+.page-header {
+  padding: 0.55rem 0 0.6rem;
+  justify-content: flex-start;
+}
+
+.page-header h1 {
+  max-width: 14ch;
+  margin: 0;
+  color: var(--accent);
+  font-size: clamp(1.75rem, 7vw, 3rem);
+}
+
+.back-link,
+.icon-button {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 3rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.55rem;
+}
+
+.back-link {
+  background: var(--surface);
+  color: var(--accent);
+  box-shadow: var(--shadow);
+}
+
+.future-note {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1rem;
+  padding: 0.9rem;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.reader-toolbar,
+.category-strip,
+.content-tabs {
+  display: flex;
+  gap: 0.55rem;
+  overflow-x: auto;
+  box-shadow: none;
+}
+
+.control-button,
+.category-button,
+.tab-button,
+.stepper button,
+select {
+  min-height: 2.9rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface-soft);
+  color: var(--text);
+  padding: 0.55rem 0.85rem;
+  cursor: pointer;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.category-button.active,
+.tab-button.active,
+.control-button.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.reading-card {
+  min-height: 45vh;
+}
+
+.reading-text {
+  font-size: calc(1.16rem * var(--reader-scale, 1));
+  line-height: 1.85;
+  white-space: pre-line;
+}
+
+.scroll-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 5.3rem;
+  display: none;
+  width: 3.1rem;
+  height: 3.1rem;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  box-shadow: var(--shadow);
+  font-size: 1.3rem;
+}
+
+.scroll-top.show {
+  display: block;
+}
+
+.countdown-card {
+  background: linear-gradient(135deg, var(--surface), var(--surface-soft));
+}
+
+.countdown {
+  display: inline-grid;
+  place-items: center;
+  min-height: 3.2rem;
+  margin-top: 0.5rem;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: white;
+  padding: 0.55rem 1rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.festival-card {
+  text-align: left;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: end center;
+  padding: 1rem;
+  background: rgba(25, 15, 10, 0.45);
+}
+
+.modal[hidden] {
+  display: none;
+}
+
+.modal-card {
+  position: relative;
+  width: min(100%, 520px);
+  max-height: 86vh;
+  overflow: auto;
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  padding: 1.25rem;
+  box-shadow: var(--shadow);
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  background: var(--surface-soft);
+  color: var(--accent);
+}
+
+.settings-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.setting-row {
+  min-height: 4.4rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.85rem;
+}
+
+.setting-row input[type="checkbox"] {
+  width: 3rem;
+  height: 1.55rem;
+  accent-color: var(--primary);
+}
+
+.stepper {
+  display: flex;
+  gap: 0.45rem;
+}
+
+.saved-list a {
+  display: block;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.blessing-card {
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .app-shell {
+    padding-top: 1.8rem;
+  }
+
+  .home-hero {
+    min-height: 21rem;
+    padding: 1.4rem;
+  }
+
+  .quick-grid,
+  .festival-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .card,
+  .reader-toolbar,
+  .category-strip,
+  .content-tabs {
+    padding: 1.2rem;
+  }
+}
