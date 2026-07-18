@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#FF8F00">
+  <title>Calendar - Mummiji Daily Pooja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="calendar">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main id="main" class="app-shell">
+    <header class="page-header">
+      <a class="back-link" href="index.html" aria-label="Go home">‹</a>
+      <div>
+        <p class="eyebrow">Hindu Calendar</p>
+        <h1>Monthly pooja calendar</h1>
+      </div>
+    </header>
+
+    <section class="card calendar-card" aria-labelledby="calendarTitle">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" id="calendarYear">Year</p>
+          <h2 id="calendarTitle">Month</h2>
+        </div>
+        <span class="soft-pill">Today highlighted</span>
+      </div>
+      <div class="calendar-controls" aria-label="Change calendar month and year">
+        <button class="control-button" id="prevMonth" type="button" aria-label="Previous month">‹</button>
+        <label class="sr-only" for="monthSelect">Month</label>
+        <select id="monthSelect" aria-label="Month"></select>
+        <label class="sr-only" for="yearSelect">Year</label>
+        <select id="yearSelect" aria-label="Year"></select>
+        <button class="control-button" id="nextMonth" type="button" aria-label="Next month">›</button>
+      </div>
+      <div class="calendar-grid" id="calendarGrid"></div>
+    </section>
+
+    <section class="card" aria-labelledby="monthFestivalsTitle">
+      <p class="eyebrow">This Month</p>
+      <h2 id="monthFestivalsTitle">Festival dates</h2>
+      <div class="festival-list" id="monthFestivals"></div>
+    </section>
+
+    <section class="future-note" aria-label="Future calendar support">
+      <span aria-hidden="true">🪷</span>
+      Panchang API and notification support can be added here later.
+    </section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Primary navigation">
+    <a href="index.html" data-nav="home"><span>⌂</span>Home</a>
+    <a href="calendar.html" data-nav="calendar"><span>□</span>Calendar</a>
+    <a href="read.html" data-nav="read"><span>☰</span>Read</a>
+    <a href="festival.html" data-nav="festival"><span>✦</span>Festivals</a>
+    <a href="settings.html" data-nav="settings"><span>⚙</span>Settings</a>
+  </nav>
+  <script src="script.js"></script>
+</body>
+</html>

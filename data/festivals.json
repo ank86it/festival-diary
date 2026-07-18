@@ -1,0 +1,668 @@
+[
+  {
+    "name": "Makarsankranti / Pongal",
+    "date": "2026-01-14",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A harvest festival for gratitude, new beginnings and offering thanks to Surya Dev.",
+    "steps": ["Offer water to Surya Dev", "Prepare til-gud or pongal", "Donate food or warm clothes", "Pray for family wellbeing"]
+  },
+  {
+    "name": "Vasant Panchami",
+    "date": "2026-01-23",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🌼",
+    "description": "A day dedicated to Maa Saraswati, learning, music and fresh spring energy.",
+    "steps": ["Wear or offer yellow", "Pray to Maa Saraswati", "Keep books near the pooja place", "Chant Saraswati mantra"]
+  },
+  {
+    "name": "Thaipusam",
+    "date": "2026-02-01",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "A devotional day associated with Lord Murugan and sincere vows.",
+    "steps": ["Light a deepak", "Offer fruits and flowers", "Chant Murugan mantra", "Keep thoughts pure"]
+  },
+  {
+    "name": "Maha Shivaratri",
+    "date": "2026-02-15",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🕉️",
+    "description": "The great night of Lord Shiva, observed with abhishek, fasting and mantra jap.",
+    "steps": ["Do jal abhishek", "Offer bilva leaves", "Chant Om Namah Shivaya", "Read Shiv Chalisa"]
+  },
+  {
+    "name": "Holika Dahan",
+    "date": "2026-03-03",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🔥",
+    "description": "A sacred evening remembering the victory of devotion and goodness.",
+    "steps": ["Offer prayer before Holika", "Remember Prahlad's devotion", "Pray for protection", "Share sweets with family"]
+  },
+  {
+    "name": "Holi",
+    "date": "2026-03-04",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🎨",
+    "description": "A joyful festival of colors, forgiveness and family celebration.",
+    "steps": ["Offer morning prayer", "Apply gulal respectfully", "Share sweets", "Visit family"]
+  },
+  {
+    "name": "Ugadi / Gudi Padwa / Telugu New Year",
+    "date": "2026-03-19",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🌿",
+    "description": "A regional New Year celebration for prosperity, cleanliness and fresh starts.",
+    "steps": ["Clean the pooja space", "Light a deepak", "Offer seasonal food", "Pray for a blessed year"]
+  },
+  {
+    "name": "Ramanavami",
+    "date": "2026-03-27",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🏹",
+    "description": "The birth celebration of Lord Rama, observed with bhajan and Ram naam.",
+    "steps": ["Chant Shri Ram Jai Ram", "Read Ramayana verses", "Offer fruits", "Do aarti"]
+  },
+  {
+    "name": "Hanuman Jayanti",
+    "date": "2026-04-02",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🚩",
+    "description": "A devotional day celebrating Lord Hanuman's strength, humility and service.",
+    "steps": ["Read Hanuman Chalisa", "Offer sindoor", "Offer boondi or fruits", "Chant Hanuman mantra"]
+  },
+  {
+    "name": "Vaisakhi / Baisakhi / Vishu",
+    "date": "2026-04-14",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🌾",
+    "description": "A harvest and New Year celebration marked with gratitude and joy.",
+    "steps": ["Offer grains or fruits", "Light a deepak", "Thank the divine for abundance", "Share food"]
+  },
+  {
+    "name": "Tamil New Year",
+    "date": "2026-04-14",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "Tamil New Year, celebrated with prayer, auspicious food and family blessings.",
+    "steps": ["Prepare the pooja thali", "Offer flowers and fruits", "Pray for prosperity", "Take blessings from elders"]
+  },
+  {
+    "name": "Bengali New Year / Bihu",
+    "date": "2026-04-15",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "A New Year celebration of renewal, culture, harvest and family joy.",
+    "steps": ["Light a deepak", "Offer sweets", "Pray for new beginnings", "Share blessings with family"]
+  },
+  {
+    "name": "Akshaya Tritiya",
+    "date": "2026-04-19",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🪙",
+    "description": "An auspicious day for prosperity, charity and sacred beginnings.",
+    "steps": ["Worship Lakshmi Narayan", "Offer yellow flowers", "Donate food", "Begin a good deed"]
+  },
+  {
+    "name": "Savitri Pooja",
+    "date": "2026-05-16",
+    "day": "Saturday",
+    "type": "vrat",
+    "icon": "🌳",
+    "description": "A vrat observed for family wellbeing, strength and marital blessings.",
+    "steps": ["Offer water near a sacred tree", "Pray for family health", "Listen to Savitri katha", "Take blessings from elders"]
+  },
+  {
+    "name": "Puri Rath Yatra",
+    "date": "2026-07-16",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🛕",
+    "description": "The chariot festival of Lord Jagannath, Balabhadra and Subhadra.",
+    "steps": ["Chant Jai Jagannath", "Offer fruits", "Read Jagannath bhajan", "Serve prasad"]
+  },
+  {
+    "name": "Guru Purnima",
+    "date": "2026-07-29",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "A day to remember gurus, elders and all sources of wisdom with gratitude.",
+    "steps": ["Light a deepak", "Offer flowers to Guru", "Take blessings from elders", "Donate food or clothes"]
+  },
+  {
+    "name": "Nag Panchami",
+    "date": "2026-08-17",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🐍",
+    "description": "A traditional day of reverence for Nag Devta and protection from harm.",
+    "steps": ["Offer milk symbolically", "Pray to Nag Devta", "Avoid digging soil", "Keep the home peaceful"]
+  },
+  {
+    "name": "Onam",
+    "date": "2026-08-26",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌼",
+    "description": "A joyful harvest festival of abundance, welcome and family meals.",
+    "steps": ["Decorate with flowers", "Offer seasonal food", "Pray for prosperity", "Share a family meal"]
+  },
+  {
+    "name": "Raksha Bandhan",
+    "date": "2026-08-28",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "A joyful family festival celebrating protection, affection and sibling blessings.",
+    "steps": ["Prepare aarti thali", "Tie rakhi with tilak", "Offer sweets", "Pray for family wellbeing"]
+  },
+  {
+    "name": "Varalakshmi Vrat",
+    "date": "2026-08-28",
+    "day": "Friday",
+    "type": "vrat",
+    "icon": "🪷",
+    "description": "A vrat dedicated to Maa Lakshmi for prosperity, grace and family happiness.",
+    "steps": ["Clean the pooja space", "Offer lotus or flowers", "Read Lakshmi aarti", "Offer sweet prasad"]
+  },
+  {
+    "name": "Krishna Janmashtami",
+    "date": "2026-09-04",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🪈",
+    "description": "The birth celebration of Lord Krishna, filled with bhajan, fasting and joy.",
+    "steps": ["Decorate Bal Gopal", "Offer makhan mishri", "Chant Krishna naam", "Do midnight prayer if possible"]
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "date": "2026-09-14",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🐘",
+    "description": "A day to welcome Lord Ganesh, remover of obstacles and giver of wisdom.",
+    "steps": ["Offer durva grass", "Offer modak", "Read Ganesh aarti", "Pray before new work"]
+  },
+  {
+    "name": "Vishwakarma Puja",
+    "date": "2026-09-17",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🛠️",
+    "description": "A day to honor tools, work, skill and divine craftsmanship.",
+    "steps": ["Clean tools and work area", "Offer flowers", "Pray for safe work", "Share prasad"]
+  },
+  {
+    "name": "Mahalaya Amavasya",
+    "date": "2026-10-10",
+    "day": "Saturday",
+    "type": "vrat",
+    "icon": "🌑",
+    "description": "A quiet day for remembrance, gratitude to ancestors and prayer.",
+    "steps": ["Light a sesame oil lamp", "Offer water in remembrance", "Donate food", "Keep thoughts pure"]
+  },
+  {
+    "name": "Navaratri begins",
+    "date": "2026-10-11",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "The beginning of nine devotional nights worshipping Maa Durga.",
+    "steps": ["Clean the pooja space", "Light a deepak", "Read Durga Chalisa", "Offer red flowers"]
+  },
+  {
+    "name": "Navaratri ends / Maha Navami",
+    "date": "2026-10-19",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "The concluding Navaratri worship day, marked with devotion to Maa Durga.",
+    "steps": ["Offer halwa or fruits", "Read Durga aarti", "Pray for strength", "Share prasad"]
+  },
+  {
+    "name": "Maha Navami",
+    "date": "2026-10-19",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "A sacred Navaratri day for worshipping Maa Durga with devotion and gratitude.",
+    "steps": ["Light a deepak", "Offer red flowers", "Read Durga Chalisa", "Share prasad"]
+  },
+  {
+    "name": "Dusshera",
+    "date": "2026-10-20",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🏹",
+    "description": "A festival celebrating the victory of dharma and goodness.",
+    "steps": ["Pray to Lord Rama", "Remember victory of truth", "Offer sweets", "Begin one good habit"]
+  },
+  {
+    "name": "Sharad Purnima",
+    "date": "2026-10-25",
+    "day": "Sunday",
+    "type": "vrat",
+    "icon": "🌕",
+    "description": "A full moon night associated with cool moonlight, devotion and kheer offering.",
+    "steps": ["Offer kheer", "Pray under moonlight if possible", "Chant peaceful mantras", "Share prasad"]
+  },
+  {
+    "name": "Karwa Chauth",
+    "date": "2026-10-29",
+    "day": "Thursday",
+    "type": "vrat",
+    "icon": "🌙",
+    "description": "A vrat observed with prayer for marital wellbeing and long life.",
+    "steps": ["Prepare pooja thali", "Listen to vrat katha", "Offer water to Chandra", "Take family blessings"]
+  },
+  {
+    "name": "Dhan Teras",
+    "date": "2026-11-06",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🪙",
+    "description": "An auspicious Diwali season day for health, wealth and Lakshmi worship.",
+    "steps": ["Light diyas", "Pray to Dhanvantari", "Offer sweets", "Clean the entrance"]
+  },
+  {
+    "name": "Diwali",
+    "date": "2026-11-08",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "Festival of lights, Lakshmi pooja, cleanliness, gratitude and family joy.",
+    "steps": ["Clean pooja space", "Do Lakshmi Ganesh pooja", "Light diyas", "Share sweets"]
+  },
+  {
+    "name": "Bhai Dooj",
+    "date": "2026-11-11",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "A family festival celebrating affection and blessings between siblings.",
+    "steps": ["Prepare tilak thali", "Offer sweets", "Do aarti", "Pray for family protection"]
+  },
+  {
+    "name": "Chhath Puja",
+    "date": "2026-11-15",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A sacred worship of Surya Dev and Chhathi Maiya with discipline and gratitude.",
+    "steps": ["Offer arghya to Surya", "Keep pooja items clean", "Offer fruits", "Pray for health and prosperity"]
+  },
+  {
+    "name": "Kartik Poornima",
+    "date": "2026-11-24",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🌕",
+    "description": "An auspicious full moon day for lighting lamps, charity and prayer.",
+    "steps": ["Light diyas", "Offer flowers", "Donate food", "Chant Vishnu mantra"]
+  },
+  {
+    "name": "Dhanu Sankranti",
+    "date": "2026-12-16",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A Sankranti day for Surya worship, charity and spiritual discipline.",
+    "steps": ["Offer water to Surya", "Donate food", "Light a deepak", "Pray for steady progress"]
+  },
+  {
+    "name": "Geeta Jayanti",
+    "date": "2026-12-20",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "📖",
+    "description": "A day to remember the wisdom of the Bhagavad Gita.",
+    "steps": ["Read a Gita shloka", "Offer flowers to Krishna", "Chant Hare Krishna", "Practice one teaching"]
+  },
+  {
+    "name": "Makarsankranti / Pongal",
+    "date": "2027-01-15",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A harvest festival for gratitude, new beginnings and offering thanks to Surya Dev.",
+    "steps": ["Offer water to Surya Dev", "Prepare til-gud or pongal", "Donate food or warm clothes", "Pray for family wellbeing"]
+  },
+  {
+    "name": "Thaipusam",
+    "date": "2027-01-22",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "A devotional day associated with Lord Murugan and sincere vows.",
+    "steps": ["Light a deepak", "Offer fruits and flowers", "Chant Murugan mantra", "Keep thoughts pure"]
+  },
+  {
+    "name": "Vasant Panchami",
+    "date": "2027-02-11",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🌼",
+    "description": "A day dedicated to Maa Saraswati, learning, music and fresh spring energy.",
+    "steps": ["Wear or offer yellow", "Pray to Maa Saraswati", "Keep books near the pooja place", "Chant Saraswati mantra"]
+  },
+  {
+    "name": "Maha Shivaratri",
+    "date": "2027-03-06",
+    "day": "Saturday",
+    "type": "festival",
+    "icon": "🕉️",
+    "description": "The great night of Lord Shiva, observed with abhishek, fasting and mantra jap.",
+    "steps": ["Do jal abhishek", "Offer bilva leaves", "Chant Om Namah Shivaya", "Read Shiv Chalisa"]
+  },
+  {
+    "name": "Holika Dahan",
+    "date": "2027-03-21",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🔥",
+    "description": "A sacred evening remembering the victory of devotion and goodness.",
+    "steps": ["Offer prayer before Holika", "Remember Prahlad's devotion", "Pray for protection", "Share sweets with family"]
+  },
+  {
+    "name": "Holi",
+    "date": "2027-03-22",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🎨",
+    "description": "A joyful festival of colors, forgiveness and family celebration.",
+    "steps": ["Offer morning prayer", "Apply gulal respectfully", "Share sweets", "Visit family"]
+  },
+  {
+    "name": "Ugadi / Gudi Padwa / Telugu New Year",
+    "date": "2027-04-07",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌿",
+    "description": "A regional New Year celebration for prosperity, cleanliness and fresh starts.",
+    "steps": ["Clean the pooja space", "Light a deepak", "Offer seasonal food", "Pray for a blessed year"]
+  },
+  {
+    "name": "Tamil New Year",
+    "date": "2027-04-14",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "Tamil New Year, celebrated with prayer, auspicious food and family blessings.",
+    "steps": ["Prepare the pooja thali", "Offer flowers and fruits", "Pray for prosperity", "Take blessings from elders"]
+  },
+  {
+    "name": "Vaisakhi / Baisakhi / Vishu",
+    "date": "2027-04-14",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🌾",
+    "description": "A harvest and New Year celebration marked with gratitude and joy.",
+    "steps": ["Offer grains or fruits", "Light a deepak", "Thank the divine for abundance", "Share food"]
+  },
+  {
+    "name": "Bengali New Year / Bihu",
+    "date": "2027-04-15",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "A New Year celebration of renewal, culture, harvest and family joy.",
+    "steps": ["Light a deepak", "Offer sweets", "Pray for new beginnings", "Share blessings with family"]
+  },
+  {
+    "name": "Ramanavami",
+    "date": "2027-04-15",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🏹",
+    "description": "The birth celebration of Lord Rama, observed with bhajan and Ram naam.",
+    "steps": ["Chant Shri Ram Jai Ram", "Read Ramayana verses", "Offer fruits", "Do aarti"]
+  },
+  {
+    "name": "Hanuman Jayanti",
+    "date": "2027-04-20",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🚩",
+    "description": "A devotional day celebrating Lord Hanuman's strength, humility and service.",
+    "steps": ["Read Hanuman Chalisa", "Offer sindoor", "Offer boondi or fruits", "Chant Hanuman mantra"]
+  },
+  {
+    "name": "Akshaya Tritiya",
+    "date": "2027-05-09",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🪙",
+    "description": "An auspicious day for prosperity, charity and sacred beginnings.",
+    "steps": ["Worship Lakshmi Narayan", "Offer yellow flowers", "Donate food", "Begin a good deed"]
+  },
+  {
+    "name": "Savitri Pooja",
+    "date": "2027-06-04",
+    "day": "Friday",
+    "type": "vrat",
+    "icon": "🌳",
+    "description": "A vrat observed for family wellbeing, strength and marital blessings.",
+    "steps": ["Offer water near a sacred tree", "Pray for family health", "Listen to Savitri katha", "Take blessings from elders"]
+  },
+  {
+    "name": "Puri Rath Yatra",
+    "date": "2027-07-05",
+    "day": "Monday",
+    "type": "festival",
+    "icon": "🛕",
+    "description": "The chariot festival of Lord Jagannath, Balabhadra and Subhadra.",
+    "steps": ["Chant Jai Jagannath", "Offer fruits", "Read Jagannath bhajan", "Serve prasad"]
+  },
+  {
+    "name": "Guru Purnima",
+    "date": "2027-07-18",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "A day to remember gurus, elders and all sources of wisdom with gratitude.",
+    "steps": ["Light a deepak", "Offer flowers to Guru", "Take blessings from elders", "Donate food or clothes"]
+  },
+  {
+    "name": "Nag Panchami",
+    "date": "2027-08-06",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🐍",
+    "description": "A traditional day of reverence for Nag Devta and protection from harm.",
+    "steps": ["Offer milk symbolically", "Pray to Nag Devta", "Avoid digging soil", "Keep the home peaceful"]
+  },
+  {
+    "name": "Varalakshmi Vrat",
+    "date": "2027-08-13",
+    "day": "Friday",
+    "type": "vrat",
+    "icon": "🪷",
+    "description": "A vrat dedicated to Maa Lakshmi for prosperity, grace and family happiness.",
+    "steps": ["Clean the pooja space", "Offer lotus or flowers", "Read Lakshmi aarti", "Offer sweet prasad"]
+  },
+  {
+    "name": "Raksha Bandhan",
+    "date": "2027-08-17",
+    "day": "Tuesday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "A joyful family festival celebrating protection, affection and sibling blessings.",
+    "steps": ["Prepare aarti thali", "Tie rakhi with tilak", "Offer sweets", "Pray for family wellbeing"]
+  },
+  {
+    "name": "Krishna Janmashtami",
+    "date": "2027-08-25",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🪈",
+    "description": "The birth celebration of Lord Krishna, filled with bhajan, fasting and joy.",
+    "steps": ["Decorate Bal Gopal", "Offer makhan mishri", "Chant Krishna naam", "Do midnight prayer if possible"]
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "date": "2027-09-04",
+    "day": "Saturday",
+    "type": "festival",
+    "icon": "🐘",
+    "description": "A day to welcome Lord Ganesh, remover of obstacles and giver of wisdom.",
+    "steps": ["Offer durva grass", "Offer modak", "Read Ganesh aarti", "Pray before new work"]
+  },
+  {
+    "name": "Onam",
+    "date": "2027-09-12",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🌼",
+    "description": "A joyful harvest festival of abundance, welcome and family meals.",
+    "steps": ["Decorate with flowers", "Offer seasonal food", "Pray for prosperity", "Share a family meal"]
+  },
+  {
+    "name": "Vishwakarma Puja",
+    "date": "2027-09-17",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🛠️",
+    "description": "A day to honor tools, work, skill and divine craftsmanship.",
+    "steps": ["Clean tools and work area", "Offer flowers", "Pray for safe work", "Share prasad"]
+  },
+  {
+    "name": "Mahalaya Amavasya",
+    "date": "2027-09-29",
+    "day": "Wednesday",
+    "type": "vrat",
+    "icon": "🌑",
+    "description": "A quiet day for remembrance, gratitude to ancestors and prayer.",
+    "steps": ["Light a sesame oil lamp", "Offer water in remembrance", "Donate food", "Keep thoughts pure"]
+  },
+  {
+    "name": "Navaratri begins",
+    "date": "2027-09-30",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "The beginning of nine devotional nights worshipping Maa Durga.",
+    "steps": ["Clean the pooja space", "Light a deepak", "Read Durga Chalisa", "Offer red flowers"]
+  },
+  {
+    "name": "Maha Navami",
+    "date": "2027-10-08",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "A sacred Navaratri day for worshipping Maa Durga with devotion and gratitude.",
+    "steps": ["Light a deepak", "Offer red flowers", "Read Durga Chalisa", "Share prasad"]
+  },
+  {
+    "name": "Navaratri ends",
+    "date": "2027-10-09",
+    "day": "Saturday",
+    "type": "festival",
+    "icon": "🌺",
+    "description": "The closing day of Navaratri devotion and Durga worship.",
+    "steps": ["Offer halwa or fruits", "Read Durga aarti", "Pray for strength", "Share prasad"]
+  },
+  {
+    "name": "Dusshera",
+    "date": "2027-10-09",
+    "day": "Saturday",
+    "type": "festival",
+    "icon": "🏹",
+    "description": "A festival celebrating the victory of dharma and goodness.",
+    "steps": ["Pray to Lord Rama", "Remember victory of truth", "Offer sweets", "Begin one good habit"]
+  },
+  {
+    "name": "Sharad Purnima",
+    "date": "2027-10-14",
+    "day": "Thursday",
+    "type": "vrat",
+    "icon": "🌕",
+    "description": "A full moon night associated with cool moonlight, devotion and kheer offering.",
+    "steps": ["Offer kheer", "Pray under moonlight if possible", "Chant peaceful mantras", "Share prasad"]
+  },
+  {
+    "name": "Karwa Chauth",
+    "date": "2027-10-18",
+    "day": "Monday",
+    "type": "vrat",
+    "icon": "🌙",
+    "description": "A vrat observed with prayer for marital wellbeing and long life.",
+    "steps": ["Prepare pooja thali", "Listen to vrat katha", "Offer water to Chandra", "Take family blessings"]
+  },
+  {
+    "name": "Dhan Teras",
+    "date": "2027-10-27",
+    "day": "Wednesday",
+    "type": "festival",
+    "icon": "🪙",
+    "description": "An auspicious Diwali season day for health, wealth and Lakshmi worship.",
+    "steps": ["Light diyas", "Pray to Dhanvantari", "Offer sweets", "Clean the entrance"]
+  },
+  {
+    "name": "Diwali",
+    "date": "2027-10-29",
+    "day": "Friday",
+    "type": "festival",
+    "icon": "🪔",
+    "description": "Festival of lights, Lakshmi pooja, cleanliness, gratitude and family joy.",
+    "steps": ["Clean pooja space", "Do Lakshmi Ganesh pooja", "Light diyas", "Share sweets"]
+  },
+  {
+    "name": "Bhai Dooj",
+    "date": "2027-10-31",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🌸",
+    "description": "A family festival celebrating affection and blessings between siblings.",
+    "steps": ["Prepare tilak thali", "Offer sweets", "Do aarti", "Pray for family protection"]
+  },
+  {
+    "name": "Chhath Puja",
+    "date": "2027-11-04",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A sacred worship of Surya Dev and Chhathi Maiya with discipline and gratitude.",
+    "steps": ["Offer arghya to Surya", "Keep pooja items clean", "Offer fruits", "Pray for health and prosperity"]
+  },
+  {
+    "name": "Kartik Poornima",
+    "date": "2027-11-14",
+    "day": "Sunday",
+    "type": "festival",
+    "icon": "🌕",
+    "description": "An auspicious full moon day for lighting lamps, charity and prayer.",
+    "steps": ["Light diyas", "Offer flowers", "Donate food", "Chant Vishnu mantra"]
+  },
+  {
+    "name": "Geeta Jayanti",
+    "date": "2027-12-09",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "📖",
+    "description": "A day to remember the wisdom of the Bhagavad Gita.",
+    "steps": ["Read a Gita shloka", "Offer flowers to Krishna", "Chant Hare Krishna", "Practice one teaching"]
+  },
+  {
+    "name": "Dhanu Sankranti",
+    "date": "2027-12-16",
+    "day": "Thursday",
+    "type": "festival",
+    "icon": "☀️",
+    "description": "A Sankranti day for Surya worship, charity and spiritual discipline.",
+    "steps": ["Offer water to Surya", "Donate food", "Light a deepak", "Pray for steady progress"]
+  }
+]

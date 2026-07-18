@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Temple lotus backdrop</title>
+  <desc id="desc">A soft Indian temple arch with lotus petals and diyas.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7A1E22"/>
+      <stop offset="0.55" stop-color="#F57C00"/>
+      <stop offset="1" stop-color="#FFB74D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="36%" r="56%">
+      <stop offset="0" stop-color="#FFF8F0" stop-opacity=".9"/>
+      <stop offset=".32" stop-color="#FFD180" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#FF8F00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="600" cy="310" r="410" fill="url(#glow)"/>
+  <path d="M190 780V430c0-215 175-390 390-390h40c215 0 390 175 390 390v350H850V438c0-132-108-240-240-240h-20c-132 0-240 108-240 240v342H190Z" fill="#FFF8F0" opacity=".18"/>
+  <path d="M286 780V452c0-162 132-294 294-294h40c162 0 294 132 294 294v328H782V460c0-94-76-170-170-170h-24c-94 0-170 76-170 170v320H286Z" fill="#7A1E22" opacity=".25"/>
+  <g opacity=".58" fill="#FFF8F0">
+    <path d="M600 515c54 48 86 96 86 144 0 42-34 76-86 100-52-24-86-58-86-100 0-48 32-96 86-144Z"/>
+    <path d="M518 558c16 70 4 126-34 163-33 33-88 38-153 18 21-64 52-108 91-125 31-14 63-32 96-56Z"/>
+    <path d="M682 558c-16 70-4 126 34 163 33 33 88 38 153 18-21-64-52-108-91-125-31-14-63-32-96-56Z"/>
+    <path d="M454 629c7 52-10 92-52 119-31 20-79 23-144 8 39-52 76-83 112-91 27-6 55-18 84-36Z"/>
+    <path d="M746 629c-7 52 10 92 52 119 31 20 79 23 144 8-39-52-76-83-112-91-27-6-55-18-84-36Z"/>
+  </g>
+  <g fill="#FFF8F0" opacity=".74">
+    <path d="M138 681h64v98h-64z"/>
+    <path d="M998 681h64v98h-64z"/>
+    <path d="M126 669c18-38 30-58 44-58s26 20 44 58H126Z"/>
+    <path d="M986 669c18-38 30-58 44-58s26 20 44 58h-88Z"/>
+  </g>
+</svg>
